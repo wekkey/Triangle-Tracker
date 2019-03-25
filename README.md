@@ -6,12 +6,12 @@ This is a tringle tracker that identifys what type of the triangle it is.
 ##Technologies used
 1. HTML
 2. CSS
-3:Javascript
+3:JAVASCRIPT
 
-
-
-
-
+##BDD
+|Behaviour                   |Input                     |Output
+|----------------------------|--------------------------|
+|All sides are equal         |side A====side B====side C|Equilateral
 ## Support and contact details
 If you have any question or anything you would like to pitch in to my project kindly reach me on:
 call me on: +254704359024
