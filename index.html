@@ -1,69 +1,32 @@
-<DOCTYPE html>
-  <html>
-  <head>
-    <link styles.href="css/styles.css" rel="stylesheet" type="text/css"
-    <script src:"js/scripts.js"></script>
-    <title>Triangle-Tracker</title>
-  </head>
-  <body>
-  <div class="important">
-  <div class="unimportant">
-  <div class="res">
-  <h1>Triangle-Tracker-Program</h1>
 
-  <div class="column">
-    <form id="Triangle">
-    <div class="form-group">
-    <h2>Definition of a triangle</h2>
-    <p>A plane figure with three sides and three angles</p>
-    <h3>Types of a triangle</h3>
-    <p>Equilateral<br>Isosceles<br>Scalene</p>
-    <h4>Equilateral</h4>
-    <p>A triangle that has all sides equal</p>
-    <h5><strong>Isosceles<strong></h5>
-    <p>A triangle that has two of its sides equal</p>
-    <h6><strong>Scalene<strong></h6>
-    <p> A triangle that has all three sides unequal</p>
-
-    <label for="A">A:</label>
-    <input id="A" type="text"><br>
-    <label for "B">B:</label>
-    <input id="B" type="text"><br>
-    <label for "C">C:</label>
-    <input id="C" type="text">
-      </div>
-
-    <button type="submit" class="t.s-tri">triangulate!</button>
-      </form>
-      </div>
-      </div>
-      <div class="res">
-        <p>Equilateral triangles:</p>
-        <div id="result">
-        <ul id="tri-results-Equilateral">
-        <p><span class="Equilateral"></span>
-        </ul>
-      </div>
-      </div>
-
-      <div class="res">
-        <p>Isosceles triangles:</p>
-        <div id="result">
-        <ul id="tri-results-Isosceles">
-        <p><span class="Isosceles"></span>
-        </ul>
-        </div>
-      </div>
-
-      <div class="res">
-        <p>Scalene triangles:</p>
-        <div id="result">
-        <ul id="tri-results-Scalene">
-        <p><span class="Scalene"></span>
-        </ul>
-        </div>
-      <p id="result"></p>
-      </div>
-    </div>
-
-   
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <title>Traingle-Tracker</title>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <h1>TRIANGLE-TRACKER-PROGRAM</h1>
+  <div class="text-box">
+      <br>
+  <h2>LETS FIND OUT MORE ABOUT TRIANGLES.</h2>
+    <p>Length <input type="text" id="l"> </p>
+    <p>width <input type="text" id="w"> </p>
+    <p>Height <input type="text" id="h"> </p>
+  </div>
+  <input type="button" value="TRACK" onclick="triangleTracker()">
+       <br>
+  <h3>Description of Triangles</h3>
+  <p><em>The types of triangles inlude:</em></p>
+  <ul>
+      <li>Equilateral triangle: a triangle that has all three sides equal</li>
+      <img src="images/equilateral.png" alt="Equilateral">
+      <li>Isosceles triangle: a triangle that has two sides equal</li>
+      <img src="images/isosceles.png" alt="Isosceles">
+      <li>Scalene triangle: a tringle that has all the three sides unequal</li>
+      <img src="images/scalene.png" alt="Scalene">
+  </ul>
+</body>
+</html>

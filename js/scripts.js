@@ -1,16 +1,21 @@
-var triangle=function(A, B, C)
 
-var A=parseInt($("input").value());
-var B=parseInt($("input").value());
-var C=parseInt($("input").value());
-var result=triangle(A, B, C)
+function triangleTracker(){
 
-if(A===B $$ B===C $$ A===C){
-  alert "Equilateral";
-}
-else if(A===B || A===C|| C===B){
-  alert "Isosceles";
-}
-else if(A!=B $$ A!=C $$ C!=B){
-  alert "Scalene";
-}
+    var l = parseInt(document.getElementById("l").value);
+    var w = parseInt(document.getElementById("w").value);
+    var h= parseInt(document.getElementById("h").value);
+
+        if (l === w && w === h && l === h) {
+          alert("Equilateral Triangle");
+      }
+        else if (l === w || w === h || l === h ) {
+          alert("Isosceles Triangle");
+        }
+
+        else if ((l+w)<=h || (l+h)<=w || (w+h)<=l) {
+          alert(" Not a Triangle");
+      }
+        else if (l !== w && w !== h ) {
+          alert("Scalene Triangle");
+      }
+  }
