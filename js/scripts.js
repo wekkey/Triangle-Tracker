@@ -6,6 +6,10 @@ function triangleTracker(){
     if (l === w && w === h && l === h) {
       alert("Equilateral Triangle");
   }
-    
+  else if (l === w || w === h || l === h ) {
+    alert("Isosceles Triangle");
+  }
+
+  
 
   }
